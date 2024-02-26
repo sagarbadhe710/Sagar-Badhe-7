@@ -1,0 +1,11 @@
+#here we are using the given principal amount,time,and rate of interest
+
+def simple_interest(prin,time,roi)
+print("The Principal is ---",prin)
+print("The Time period given is ---",time)
+print("The Rate of Interest is ---",roi)
+
+simple_interest =(print*time*roi)/100
+
+print("THE SIMPLE INTEREST IS",simple_interest)
+return simple_interest
